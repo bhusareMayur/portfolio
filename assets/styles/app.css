@@ -315,7 +315,9 @@ h2, h3, h5 {
 .dark-mode .skill-item {
   box-shadow: rgba(240, 240, 240, 0.24) 0px 3px 8px;
 }
-
+/* .dark-mode .col-sm-6 {
+  color : white;
+} */
 .skill-item:hover {
   background-color: #6900cca8;
   color: #f7f7f7;
