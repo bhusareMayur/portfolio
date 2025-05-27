@@ -4,7 +4,7 @@
   <ol>
     <li>Clone this repository:
       ```bash
-     <code>git clone https://github.com/bhusareMayur/portfolio.git</code>
+     git clone https://github.com/bhusareMayur/portfolio.git
      ```
     </li>
     <li>Open the project folder.</li>
