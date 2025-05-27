@@ -1,1 +1,12 @@
 # portfolio
+
+ <h2>How to Use This Repository</h2>
+  <ol>
+    <li>Clone this repository: <code>git clone https://github.com/bhusareMayur/portfolio.git</code></li>
+    <li>Open the project folder.</li>
+    <li>Follow the instructions in the <code>README.md</code> or project files to set up and run locally.</li>
+  </ol>
+  <h2>Contact</h2>
+  <p>
+    Feel free to reach out via email or LinkedIn for collaboration or inquiries.
+  </p>
