@@ -10,3 +10,13 @@
   <p>
     Feel free to reach out via email or LinkedIn for collaboration or inquiries.
   </p>
+
+  <h2>🙋‍♂️ Author</h2>
+<p>
+  <strong>Mayur Shankar Bhusare</strong><br>
+  📧 <a href="mailto:mbhusare_cs@jspmrscoe.edu.in">mbhusare_cs@jspmrscoe.edu.in</a><br>
+  🔗 
+  <a href="https://www.linkedin.com/in/mayur-bhusare/" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
+  <a href="https://bhusaremayur.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Portfolio</a>
+</p>
+
