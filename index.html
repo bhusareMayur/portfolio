@@ -35,6 +35,28 @@
     <link href="assets/aos/aos.css" rel="stylesheet" />
     <script src="assets/aos/aos.js"></script>
   </head>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // ONLY run this block once after removing old keys manually
+    if (!localStorage.getItem('visitCount')) {
+      localStorage.setItem('visitCount', 100); // initial value
+    }
+
+    if (!localStorage.getItem('visitCounted')) {
+      let count = parseInt(localStorage.getItem('visitCount'), 10);
+      count++;
+      localStorage.setItem('visitCount', count);
+      localStorage.setItem('visitCounted', true);
+    }
+
+    const count = localStorage.getItem('visitCount');
+    const counterElem = document.getElementById('visitorCount');
+    if (counterElem) {
+      counterElem.innerText = count;
+    }
+  });
+</script>
+
   <body>
     <section id="home">
       <div id="particles-js"></div>
@@ -690,6 +712,16 @@
                 </p>
               </div>
             </div>
+             <div class="col-md-4">
+                <div class="contact-email">
+                  <i class="fa-solid fa-eye"></i>
+                  <h3>Visitors count</h3>
+                  <p style="color: black; margin-top: 10px;">
+                    👁️ visitor number: <span
+                      id="visitorCount">Loading...</span>
+                  </p>
+                </div>
+              </div>
           </div>
         </div>
       </div>
