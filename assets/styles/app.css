@@ -767,3 +767,34 @@ h2, h3, h5 {
   background-color: #6900cc93 !important;
   color: #ffffff !important;
 }
+
+
+/* Experience Section */
+#experience {
+  height: auto;
+}
+
+.experience-card {
+  background: #eeeeee;
+  padding: 25px;
+  border-radius: 10px;
+  border-left: 5px solid rgba(0, 0, 0, 0.555);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.exp-list {
+  padding-left: 18px;
+}
+
+.exp-list li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+/* Dark mode support */
+.dark-mode .experience-card {
+  background-color: rgb(63, 63, 63);
+  border-color: rgb(116, 116, 116);
+  box-shadow: rgba(256, 256, 256, 0.24) 0px 3px 8px;
+}
