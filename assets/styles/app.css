@@ -51,7 +51,7 @@ body {
 section {
   padding-top: 14vh;
   padding-bottom: 9vh;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #about {
@@ -822,14 +822,14 @@ h2, h3, h5 {
   margin-bottom: 6px;
 }
 
-.skills-subtitle {
+/* .skills-subtitle {
   font-size: 13px;
   color: rgba(39,40,44,.7);
   letter-spacing: 0.12em;
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 45px;
-}
+} */
 
 /* Grid */
 
@@ -936,3 +936,11 @@ h2, h3, h5 {
   background-color: #6900cc93;
   border-left-color: #6900cc;
 }
+
+/* FIX: Backend Skills section height issue */
+#backend-skills {
+  height: auto !important;
+  padding-top: 14vh;
+  padding-bottom: 9vh;
+}
+  
