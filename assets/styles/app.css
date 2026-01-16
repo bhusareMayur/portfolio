@@ -798,3 +798,141 @@ h2, h3, h5 {
   border-color: rgb(116, 116, 116);
   box-shadow: rgba(256, 256, 256, 0.24) 0px 3px 8px;
 }
+
+
+
+/* ===== Backend Skills Section (Aligned with Site Theme) ===== */
+
+#backend-skills {
+  background: #f7f7f7;
+  padding: 80px 20px;
+}
+
+.skills-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  color: rgb(45, 0, 87);
+}
+
+.skills-title {
+  font-size: 34px;
+  font-weight: 600;
+  color: rgb(45, 0, 87);
+  margin-bottom: 6px;
+}
+
+.skills-subtitle {
+  font-size: 13px;
+  color: rgba(39,40,44,.7);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+
+/* Grid */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+/* Skill Card */
+
+.skill-card {
+  background: #eeeeee;
+  padding: 22px 22px 22px 26px;
+  border-radius: 10px;
+  border-left: 5px solid rgba(0, 0, 0, 0.55);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: left;
+  transition: all 0.25s ease;
+}
+
+.skill-card:hover {
+  background-color: #6900cc93;
+  border-left-color: #6900cc;
+  color: #ffffff;
+  transform: translateY(-4px);
+}
+
+/* Card Heading */
+
+.skill-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: rgb(45, 0, 87);
+}
+
+.skill-card:hover h3 {
+  color: #ffffff;
+}
+.skills-subtitle {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 50px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 12px;
+}
+
+
+/* Skill Tags */
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tags span {
+  background: #ffffff;
+  color: rgb(45, 0, 87);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 5px;
+  transition: all 0.25s ease;
+}
+
+/* Hover behavior */
+
+.skill-card:hover .skill-tags span {
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  box-shadow: none;
+}
+
+/* Dark Mode Support */
+
+.dark-mode #backend-skills {
+  background-color: rgb(32, 36, 41);
+}
+
+.dark-mode .skill-card {
+  background-color: rgb(63, 63, 63);
+  border-left-color: rgb(116, 116, 116);
+  box-shadow: rgba(256, 256, 256, 0.24) 0px 3px 8px;
+}
+
+.dark-mode .skill-card h3,
+.dark-mode .skill-tags span {
+  color: #f7f7f7;
+}
+
+.dark-mode .skill-tags span {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+}
+
+.dark-mode .skill-card:hover {
+  background-color: #6900cc93;
+  border-left-color: #6900cc;
+}
